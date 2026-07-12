@@ -57,6 +57,7 @@ const resetfunction = () => {
   noBtn.style.top = "50%";
   yesBtn.classList.remove("hidden");
   resetBtn.classList.add("hidden");
+  noBtn.addEventListener("mouseenter", changePostion);
 };
 
 document.addEventListener("keydown", (e) => {
